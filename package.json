@@ -1,6 +1,6 @@
 {
     "name": "Nodebase",
-    "description": "Fichier de base pour une appli nodejs (express 4.x et jade)",
+    "description": "Fichiers de base pour une appli nodejs (express 4.x et jade)",
     "version": "0.0.1",
     "private": "true",
     "dependencies": {
