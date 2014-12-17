@@ -1,10 +1,9 @@
 doctype
 html
-    head
-        title #{title}
-        link(rel='stylesheet', href='/css/style.css')
-    body
-        header
-            h1 #{title}
-        .container
-            block content
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    include ./inc/header.jade
+    .container
+        block content

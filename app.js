@@ -23,10 +23,6 @@ app.use(express.static(__dirname + '/public'));
 
 /** --- ROUTES --- **/
 require('./routes/index.js')(app, appData);
-app.get('*', function(req, res) { 
-    res.status(404).render('404', { title: appData.title });
-});
-
 
 /** --- SERVEUR --- **/
 if (app.get('env') == 'dev') {
